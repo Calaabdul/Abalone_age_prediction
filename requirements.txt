@@ -1,0 +1,22 @@
+pandas>=1.5.3
+# notebooks>=6.5.4
+numpy
+scikit-learn
+matplotlib
+flask # for serving the model
+tqdm>=4.64.1 # for progress bars
+pyyaml>=6.0 # for reading YAML files
+python-box==6.0.2
+ensure==1.0.2 # for type checking
+types-PyYAML # for type checking
+flask-Cors # for handling CORS in Flask
+gdown # for downloading files from Google Drive
+seaborn
+openpyxl # for reading Excel files
+xgboost
+streamlit
+pickle-mixin
+joblib
+statsmodels
+scipy
+missingno
