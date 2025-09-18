@@ -1,36 +1,59 @@
-# Supervised machine Learning in predicting Abalone's age
+# 🐚 Abalone Age Prediction using Machine Learning  
 
-###   ABALONE
-Predict the age of abalone from physical measurements
-Dataset Characteristics
-- Tabular
-Subject Area
-- Biology
-Associated Tasks
-- Regression
-### Instances
-4177
-### Features
-8
+## 📌 Project Overview  
+Predicting the age of abalones (a type of sea snail) is important for marine biology and commercial purposes. Traditionally, age is estimated by cutting the shell and counting growth rings through a microscope — a time-consuming and destructive method.  
 
-### Description
-Predicting the age of abalone from physical measurements.  The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope -- a boring and time-consuming task.  Other measurements, which are easier to obtain, are used to predict the age.  Further information, such as weather patterns and location (hence food availability) may be required to solve the problem.
+This project builds a **Machine Learning Model** that predicts the age of abalones using physical measurements (e.g., length, weight, shell size). The solution is deployed on **Streamlit Cloud** and **Render** so anyone can try it online.
 
-From the original data examples with missing values were removed (the majority having the predicted value missing), and the ranges of the continuous values have been scaled for use with an ANN (by dividing by 200)
+---
 
+## 🚀 Live Demo  
 
-Given is the attribute name, attribute type, the measurement unit and a brief description.  The number of rings is the value to predict: either as a continuous value or as a classification problem.
+- [🌍 Render App](https://abalone-age-predictor-z867.onrender.com)  
+- [⚡ Streamlit Cloud App](https://supervisedml--abalone-dw7ulskbtiedqoqgtppg44.streamlit.app/)  
 
-### Features / Data Type / Measurement Unit 
-- Sex / M, F, and I (infant)
-- Length in mm --> Longest shell measurement
-- Diameter in mm --> perpendicular to length
-- Height in mm --> with meat in shell
-- Whole_weight in grams --> whole abalone
-- Shucked_weight in grams --> weight of meat
-- Viscera_weight in grams --> gut weight (after bleeding)
-- Shell_weight in grams --> after being dried
-- Rings --> integer / +1.5 gives the age in years
+### Demo Screenshots / Videos  
+[![Streamlit Demo](images/streamlit_demo.png)](YOUR_STREAMLIT_LINK)  
+[![Render Demo](images/render_demo.png)](YOUR_RENDER_LINK)  
+
+---
+
+## 📂 Table of Contents  
+1. [Dataset](#-dataset)  
+2. [Project Workflow](#-project-workflow)  
+3. [Installation & Usage](#-installation--usage)  
+4. [How to Use the App](#-how-to-use-the-app)  
+5. [Results & Performance](#-results--performance)  
+6. [Tech Stack](#-tech-stack)  
+7. [Future Work](#-future-work)  
+8. [Contributing](#-contributing)  
+9. [License](#-license)  
+
+---
+
+## 📊 Dataset  
+- **Source:** [UCI Machine Learning Repository – Abalone Dataset](https://archive.ics.uci.edu/ml/datasets/abalone)  
+- **Description:**  
+  - Features: Sex (M/F/I), Length(mm), Diameter(mm), Height(mm), Whole weight(g), Shucked weight(g), Viscera weight(g), Shell weight(g).  
+  - Target: Number of Rings → converted to **Age = Rings + 1.5** years.  
+
+---
+
+## ⚙️ Project Workflow  
+1. **Data Collection** → Downloaded from UCI repository.  
+2. **Data Preprocessing** → Encoded categorical features, scaled numerical values.  
+3. **Model Training** → Trained regression models to predict age.  
+4. **Model Evaluation** → Evaluated using MAE, RMSE, and R².  
+5. **Deployment** → Deployed with **Streamlit** on Streamlit Cloud & Render.  
+
+---
+
+## 💻 Installation & Usage  
+
+Clone the repository:  
+```bash
+git clone 
+cd abalone-age-prediction
 
 
 
