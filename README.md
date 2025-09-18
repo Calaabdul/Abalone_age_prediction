@@ -13,8 +13,7 @@ This project builds a **Machine Learning Model** that predicts the age of abalon
 - [⚡ Streamlit Cloud App](https://supervisedml--abalone-dw7ulskbtiedqoqgtppg44.streamlit.app/)  
 
 ### Demo Screenshots / Videos  
-[![Streamlit Demo](images/streamlit_demo.png)](YOUR_STREAMLIT_LINK)  
-[![Render Demo](images/render_demo.png)](YOUR_RENDER_LINK)  
+[![Streamlit Demo](images/img.png)](YOUR_STREAMLIT_LINK)   
 
 ---
 
@@ -81,6 +80,6 @@ Deployment: Streamlit Cloud, Render
 `pip install -r requirements.txt`
 
 
-### License
+## License
 This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
