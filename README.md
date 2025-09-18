@@ -48,27 +48,24 @@ This project builds a **Machine Learning Model** that predicts the age of abalon
 ## 💻 Installation & Usage  
 
 Clone the repository:  
-```bash
+`bash
 git clone git@github.com:Calaabdul/Abalone_age_prediction.git
-cd abalone-age-prediction```
+cd abalone-age-prediction`
 
 Run locally with Streamlit:
-streamlit run app.py
+`streamlit run app.py`
 
 Or access the live demos above.
 
 ## 🖱️ How to Use the App
 
-Open the deployed app on Render or Streamlit Cloud.
-
-Enter the physical measurements of an abalone (Length, Diameter, Weight, etc.).
-
-Click Predict.
+- Open the deployed app on Render or Streamlit Cloud.
+- Enter the physical measurements of an abalone (Length, Diameter, Weight, etc.).
+- Click Predict.
 
 The model will output the estimated age (in years) of the abalone.
 
 👉 Example Screenshot:
-
 
 
 ## 🛠 Tech Stack
@@ -80,12 +77,8 @@ Libraries: Pandas, NumPy, Scikit-learn, Streamlit, Matplotlib/Seaborn
 Deployment: Streamlit Cloud, Render
 
 
-
-
 ## Create a virtual environment and install dependencies:
 `pip install -r requirements.txt`
-
-
 
 
 ### License
