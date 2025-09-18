@@ -1,4 +1,4 @@
-# 🐚 Abalone Age Prediction using Machine Learning  
+# 🐚 Abalone Age Prediction 
 
 ## 📌 Project Overview  
 Predicting the age of abalones (a type of sea snail) is important for marine biology and commercial purposes. Traditionally, age is estimated by cutting the shell and counting growth rings through a microscope — a time-consuming and destructive method.  
