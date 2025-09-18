@@ -49,7 +49,7 @@ This project builds a **Machine Learning Model** that predicts the age of abalon
 
 Clone the repository:  
 ```bash
-git clone 
+git clone git@github.com:Calaabdul/Abalone_age_prediction.git
 cd abalone-age-prediction```
 
 Run locally with Streamlit:
