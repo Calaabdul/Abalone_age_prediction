@@ -13,7 +13,7 @@ This project builds a **Machine Learning Model** that predicts the age of abalon
 - [⚡ Streamlit Cloud App](https://supervisedml--abalone-dw7ulskbtiedqoqgtppg44.streamlit.app/)  
 
 ### Demo Screenshots / Videos  
-![Streamlit Demo](images/img.png)
+![Streamlit Demo](images/https://github.com/Calaabdul/Abalone_age_prediction/blob/main/images/img.png?raw=true)
 
 ---
 
